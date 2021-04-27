@@ -8,4 +8,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+
+    span{
+        margin: 3px;
+        color: ${props => props.theme.colors.luz};
+        font-size: 20px;
+    }
 `
